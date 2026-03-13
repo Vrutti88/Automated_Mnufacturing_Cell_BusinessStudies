@@ -1,264 +1,303 @@
-🏭 Automated Manufacturing Intelligence Lab
+# 🏭 Automated Manufacturing Intelligence Lab
 
-A Streamlit-powered interactive simulation dashboard designed to analyze the impact of automation in a manufacturing environment.
+A **Streamlit-powered interactive simulation dashboard** designed to analyze the impact of automation in a manufacturing environment.
 
-This project models how TechParts Manufacturing Ltd. can improve production efficiency, reduce defects, and increase productivity by implementing an Automated Manufacturing Cell.
+This project models how **TechParts Manufacturing Ltd.** can improve production efficiency, reduce defects, and increase productivity by implementing an **Automated Manufacturing Cell**.
 
-The system simulates machine performance data and provides real-time business insights, financial analysis, and production analytics through an interactive dashboard.
+The system simulates machine performance data and provides **real-time business insights, financial analysis, and production analytics** through an interactive dashboard.
 
-📌 Project Overview
+---
 
-TechParts Manufacturing Ltd. currently operates using manual workstations for cutting, drilling, and assembly.
+# 📌 Project Overview
+
+TechParts Manufacturing Ltd. currently operates using **manual workstations** for:
+
+- Cutting  
+- Drilling  
+- Assembly  
 
 This leads to:
 
-Higher production cycle time
+- Higher production cycle time  
+- Human operational errors  
+- Material handling delays  
+- Increased defect rates  
+- Machine downtime  
 
-Human operational errors
+The company plans to invest **₹4 Crores** in an **Automated Manufacturing Cell** integrating:
 
-Material handling delays
+- CNC machines  
+- Robotic arms  
+- Conveyor systems  
 
-Increased defect rates
+This project simulates production data and analyzes the **business impact of automation using Python and Streamlit**.
 
-Machine downtime
+---
 
-The company plans to invest ₹4 Crores in an Automated Manufacturing Cell integrating CNC machines, robotic systems, and conveyor automation.
+# ✨ Features
 
-This project simulates production data and analyzes the business impact of automation using Python and Streamlit.
-
-✨ Features
-⚙️ Interactive Production Simulation
+## ⚙️ Interactive Production Simulation
 
 Users can configure manufacturing parameters through a sidebar including:
 
-Number of machines
+- Number of machines  
+- Productivity increase percentage  
+- Defect reduction percentage  
+- Average downtime hours  
 
-Productivity increase percentage
+The system then runs a **production simulation model**.
 
-Defect reduction percentage
+---
 
-Average downtime hours
-
-The system then runs a production simulation model.
-
-📊 Real-Time Production KPIs
+## 📊 Real-Time Production KPIs
 
 The dashboard calculates key performance indicators such as:
 
-Total Production Output
+- Total Production Output  
+- Estimated Annual Savings  
+- Net Financial Benefit  
+- Productivity Gain  
 
-Estimated Annual Savings
+---
 
-Net Financial Benefit
+## 📈 Machine Performance Analytics
 
-Productivity Gain
+The application visualizes simulated production data using **interactive Plotly charts**, including:
 
-📈 Machine Performance Analytics
+- Machine production output  
+- Defect rate analysis  
+- Machine downtime analysis  
 
-The application visualizes simulated production data using interactive Plotly charts, including:
+---
 
-Machine production output
-
-Defect rate analysis
-
-Machine downtime analysis
-
-💰 Business Impact Evaluation
+## 💰 Business Impact Evaluation
 
 The dashboard calculates:
 
-Annual operational savings
+- Annual operational savings  
+- Net benefit after automation investment  
+- Productivity improvement impact  
 
-Net benefit after automation investment
+The system also provides an **automation investment recommendation** based on simulation results.
 
-Productivity improvement impact
+---
 
-The system also provides an automation investment recommendation based on simulation results.
+# 🛠️ Technology Stack
 
-🛠️ Technology Stack
-Category	Technology
-Programming Language	Python
-Dashboard Framework	Streamlit
-Data Processing	Pandas
-Numerical Simulation	NumPy
-Data Visualization	Plotly
-Charts	Plotly Express
+| Category | Technology |
+|--------|-------------|
+| Programming Language | Python |
+| Dashboard Framework | Streamlit |
+| Data Processing | Pandas |
+| Numerical Simulation | NumPy |
+| Data Visualization | Plotly |
+| Charts | Plotly Express |
 
-Required libraries:
+### Required Libraries
 
+```
 streamlit
 pandas
 numpy
 matplotlib
 plotly
-📊 Simulation Model
+```
 
-The system generates synthetic production data for machines using NumPy random distributions.
+---
+
+# 📊 Simulation Model
+
+The system generates **synthetic production data** for machines using **NumPy random distributions**.
 
 Example parameters generated in the simulation include:
 
-Machine ID
+- Machine ID  
+- Cycle Time  
+- Defect Rate  
+- Production Volume  
+- Downtime Hours  
 
-Cycle Time
+The simulation dynamically adjusts output depending on selected parameters such as **productivity increase and defect reduction**.
 
-Defect Rate
+---
 
-Production Volume
-
-Downtime Hours
-
-The simulation dynamically adjusts output depending on the selected parameters such as productivity increase and defect reduction.
-
-🏭 Automated Manufacturing Cell Components
+# 🏭 Automated Manufacturing Cell Components
 
 The proposed automated manufacturing system includes:
 
-CNC Machines
-
+### CNC Machines
 Used for precision cutting, drilling, and machining operations.
 
-Robotic Arms
-
+### Robotic Arms
 Handle automated assembly and part movement between stations.
 
-Conveyor Systems
-
+### Conveyor Systems
 Transport materials between production processes.
 
-Sensors and Vision Systems
-
+### Sensors and Vision Systems
 Monitor product quality and detect defects.
 
-Central Control Unit
-
+### Central Control Unit
 Coordinates all machines and monitors system performance.
 
-💰 Financial Analysis
-Current Annual Cost
+---
+
+# 💰 Financial Analysis
+
+## Current Annual Cost
 
 The company currently spends:
 
-₹8 Crores per year
+**₹8 Crores per year**
 
 Costs include:
 
-Labor
+- Labor  
+- Machine idle time  
+- Defect rework  
 
-Machine idle time
+---
 
-Defect rework
+## Expected Cost Reduction
 
-Expected Cost Reduction
-
-Automation reduces labor and rework costs by:
-
-30%
+Automation reduces labor and rework costs by **30%**.
 
 Estimated annual savings:
 
+```
 Savings = 8 × 0.30
 Savings = ₹2.4 Crores
-Net Benefit Formula
+```
+
+---
+
+## Net Benefit Formula
+
+```
 Net Benefit = Total Savings – Investment
+```
 
 Where:
 
 Investment required:
 
-₹4 Crores
+**₹4 Crores**
 
+```
 Net Benefit = 2.4 – 4
 Net Benefit = – ₹1.6 Crores (Year 1)
+```
 
-Although the first year has a negative return due to investment cost, the automation system will produce positive financial returns in subsequent years.
+Although the first year has a negative return due to investment cost, the automation system will produce **positive financial returns in subsequent years**.
 
-📈 Dashboard Sections
+---
 
-The application interface includes three major analysis tabs.
+# 📈 Dashboard Sections
 
-🏭 Production KPIs
+The application interface includes **three major analysis tabs**.
+
+## 🏭 Production KPIs
 
 Displays key production metrics:
 
-Total production output
+- Total production output  
+- Estimated annual savings  
+- Net benefit  
+- Productivity gauge indicator  
 
-Estimated annual savings
+---
 
-Net benefit
-
-Productivity gauge indicator
-
-📊 Performance Analysis
+## 📊 Performance Analysis
 
 Provides machine-level analytics through interactive charts:
 
-Machine production volume
+- Machine production volume  
+- Defect rate per machine  
+- Machine downtime analysis  
 
-Defect rate per machine
+---
 
-Machine downtime analysis
-
-💡 Business Impact
+## 💡 Business Impact
 
 Explains:
 
-Automation system components
+- Automation system components  
+- Expected cost reduction  
+- Financial impact  
+- Final business recommendation  
 
-Expected cost reduction
+---
 
-Financial impact
+# 🚀 How to Run the Project
 
-Final business recommendation
+## 1️⃣ Clone the Repository
 
-🚀 How to Run the Project
-1️⃣ Clone the Repository
+```bash
 git clone https://github.com/yourusername/automated-manufacturing-intelligence.git
 cd automated-manufacturing-intelligence
-2️⃣ Install Dependencies
+```
+
+## 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-3️⃣ Run the Streamlit Application
+```
+
+## 3️⃣ Run the Streamlit Application
+
+```bash
 streamlit run app.py
+```
 
 The dashboard will open in your browser at:
 
+```
 http://localhost:8501
-📂 Project Structure
+```
+
+---
+
+# 📂 Project Structure
+
+```
 automated-manufacturing-intelligence/
 │
 ├── app.py            # Streamlit interactive dashboard
 ├── main.ipynb        # Data simulation & analysis notebook
 ├── requirements.txt  # Python dependencies
 └── README.md         # Project documentation
-📊 Business Insights
+```
+
+---
+
+# 📊 Business Insights
 
 Based on the simulation:
 
-Automation reduces operational costs significantly
+- Automation reduces operational costs significantly  
+- Production output increases with higher productivity  
+- Defect rates decrease with improved automation  
+- Machine downtime insights help optimize maintenance strategies  
 
-Production output increases with higher productivity
+Overall, automation improves **manufacturing efficiency, scalability, and competitiveness**.
 
-Defect rates decrease with improved automation
+---
 
-Machine downtime insights help optimize maintenance strategies
+# ✅ Final Recommendation
 
-Overall, automation improves manufacturing efficiency, scalability, and competitiveness.
-
-✅ Final Recommendation
-
-TechParts Manufacturing Ltd. should invest in the Automated Manufacturing Cell.
+TechParts Manufacturing Ltd. should **invest in the Automated Manufacturing Cell**.
 
 The system will:
 
-Reduce operational costs
+- Reduce operational costs  
+- Improve production efficiency  
+- Lower defect rates  
+- Increase manufacturing capacity  
 
-Improve production efficiency
+This investment will help the company remain **competitive in the automobile manufacturing industry**.
 
-Lower defect rates
+---
 
-Increase manufacturing capacity
+# 📜 License
 
-This investment will help the company remain competitive in the automobile manufacturing industry.
-
-📜 License
-
-This project is developed for educational and academic purposes.
+This project is developed for **educational and academic purposes**.
