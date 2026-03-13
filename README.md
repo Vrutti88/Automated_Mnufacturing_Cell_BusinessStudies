@@ -29,6 +29,7 @@ The company plans to invest **₹4 Crores** in an **Automated Manufacturing Cell
 - CNC machines  
 - Robotic arms  
 - Conveyor systems  
+- Central Control Systems  
 
 This project simulates production data and analyzes the **business impact of automation using Python and Streamlit**.
 
